@@ -2,8 +2,6 @@
 
 ## Repositório de exemplo do [tutórial](https://medium.com/@vhsilva.ap/configurando-laravel-6-nginx-e-postgresql-com-docker-ce2b18611be5)
 
-# Configurando Laravel 6, Nginx e PostgreSQL com Docker
-
 ![Laravel + Docker](https://miro.medium.com/max/800/1*lesSI3pwzOlVxGve32sazw.jpeg)
 
 
@@ -161,7 +159,7 @@ Para configurar o nosso servidor vamos fazer algumas configurações prévias.:
 
 Primeiramente na pasta [**```.docker/```**](https://github.com/VitorHugoSilva/exemple-laravel-with-docker/tree/master/.docker) crie uma subpasta chamada [**```nginx/```**](https://github.com/VitorHugoSilva/exemple-laravel-with-docker/tree/master/.docker/nginx) e dentro da mesma crie um arquivo chamado [**```nginx.conf```**](https://github.com/VitorHugoSilva/exemple-laravel-with-docker/blob/master/.docker/nginx/nginx.conf) neste arquivo vamos inserir as seguintes configurações:
 
-```json
+```nginx
 server {
     listen 80;
     root /var/www/public/;

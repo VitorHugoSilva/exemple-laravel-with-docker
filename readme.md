@@ -1,6 +1,6 @@
 # Configurando Laravel 6, Nginx e PostgreSQL com Docker
 
-## Repositório de exemplo do [tutórial](https://medium.com/@vhsilva.ap/configurando-laravel-6-nginx-e-postgresql-com-docker-ce2b18611be5)
+## Repositório de exemplo do [tutórial](https://medium.com/@vhsilva.ap/configurando-laravel-6-nginx-e-postgresql-com-docker-9ad29c53d5)
 
 ![Laravel + Docker](https://miro.medium.com/max/800/1*lesSI3pwzOlVxGve32sazw.jpeg)
 

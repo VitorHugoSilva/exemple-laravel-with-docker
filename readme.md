@@ -19,7 +19,7 @@ Para começar vamos criar um projeto novo Laravel utilizando o  [**_composer cre
 Abra seu terminal e execute o comando:
 
   ```sh
-  composer create-project — prefer-dist laravel/laravel blog
+  composer create-project —prefer-dist laravel/laravel blog
   ```
 
 Você pode encontrar outras maneiras de fazer a instalação e iniciar o seu projeto na  [documentação](https://laravel.com/docs/5.5/installation).
@@ -39,7 +39,7 @@ FROM php:7.3.6-fpm-alpine3.9
 ```
 Além do  **php**  iremos necessitar de outros programas então usando o comando  **apk**  das imagens  **alpine**  vamos adicionar outros software como  [**nodejs**](https://nodejs.org/en/)  e outros:
 ```Dockerfile
-RUN apk add — no-cache openssl bash nodejs npm postgresql-dev
+RUN apk add —no-cache openssl bash nodejs npm postgresql-dev
 ```
 Para facilitar nossa vida na hora de instalar extensões do php existe o comando  **docker-php-ext-install**  vamos utilizá-lo instalar extensões como  [**bcmath**](https://www.php.net/manual/pt_BR/book.bc.php)  e  [**pdo**](https://www.php.net/manual/pt_BR/book.pdo.php).
 ```Dockerfile
@@ -266,7 +266,7 @@ Seu arquivo [**```./docker-compose.yml```**](https://github.com/VitorHugoSilva/e
 
 Para fazer um teste inicial no nosso terminal execute o comando para gerar o build dos nossos containers:
 ```sh
-docker-compose up -d — build
+docker-compose up -d —build
 ```
 Aguarde a finalização do processo.
 
@@ -311,7 +311,7 @@ Pronto agora você está dentro do container e pode executar suas ações normal
 
 ![Comando docker-compose exec](https://cdn-images-1.medium.com/max/800/0*xcDY3qAFpMzoR11n)
 ```sh
-php artisa migrate
+php artisan migrate
 ```
 ![Executando migrations](https://cdn-images-1.medium.com/max/800/0*SwCSQRBbihd19lpt)
 
